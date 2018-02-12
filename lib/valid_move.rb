@@ -9,7 +9,7 @@ if board[index] == " " || board[index] == ""
 end
 
 
-def valid_move? (board,index)
+def valid_move? (position_taken,index)
   if position_taken? 
     false
     elsif position_taken?.between?(0,8)
