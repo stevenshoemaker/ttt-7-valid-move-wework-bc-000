@@ -9,7 +9,8 @@ if board[index] == " " || board[index] == ""
 end
 
 
-def valid_move? (board,index)
+def valid_move? (board,input)
+  if input = .between?
   if position_taken?(board,index) == true
     false
     elsif position_taken?(board,index) == false
